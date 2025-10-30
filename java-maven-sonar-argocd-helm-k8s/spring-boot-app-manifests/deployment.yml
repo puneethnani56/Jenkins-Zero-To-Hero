@@ -6,6 +6,7 @@ metadata:
     app: spring-boot-app
 spec:
   replicas: 1
+  revisionHistoryLimit: 1
   selector:
     matchLabels:
       app: spring-boot-app
